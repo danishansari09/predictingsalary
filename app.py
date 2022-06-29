@@ -46,4 +46,4 @@ else:
     num_yrs = np.array(num_yrs).reshape(-1,1)
     pred = lr.predict(num_yrs)[0]
     if st.button("Predict"):
-        st.success(f"Your predicted annual salary is {round(pred, 2)}")
+        st.success(f"Your predicted annual salary is ${round(pred, 2)}")
