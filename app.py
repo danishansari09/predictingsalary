@@ -9,7 +9,7 @@ from sklearn.linear_model import LinearRegression
 sns.set()
 
 st.title('Salary Predictor')
-sal_data = pd.read_csv('data/Salary_data.csv')
+sal_data = pd.read_csv('data//Salary_data.csv')
 X = sal_data["YearsExperience"].values
 y = sal_data["Salary"].values
 
